@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(39,39,39);
+}
+
+.titleImg{
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/07/13/36/sea-4747601_960_720.jpg);
+}
+
+.alliesImg{
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/07/13/36/sea-4747601_960_720.jpg);
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
+.container {
+    align-self: center;
+    width: 500px;
+    align-content: center;
+}
+
+h1{
+    color: rgb(254,206,120);
+    font-family:"Times New Roman", Times, serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.sectionTitle{
+    color: rgb(254,206,120);
+    font-family:"Times New Roman", Times, serif;
+    font-size: 56px;
+    text-align: center;
+}
+
+.sectionSubtitle{
+    color:white;
+    text-align: center;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+.sectionDescription{
+    color:white;
+    text-align: center;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 26px;
+}
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
