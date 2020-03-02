@@ -1,15 +1,49 @@
+.menu {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+  background: #dddddd;
+  color: black;
+}
+
+.menu img{
+    max-height: 50px;
+    align-self:auto;
+}
+
 body{
     background-color: rgb(39,39,39);
 }
 
 .titleImg{
+    margin-top: 40px;
     background-image: url(https://cdn.pixabay.com/photo/2020/01/07/13/36/sea-4747601_960_720.jpg);
+    max-width: 100%;
+    max-height: auto;
+    background-repeat: no-repeat;
 }
 
 .alliesImg{
+    max-height: auto;
+    min-height: 300px;
     background-image: url(https://cdn.pixabay.com/photo/2020/01/07/13/36/sea-4747601_960_720.jpg);
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(5px);
+    /*-webkit-filter: blur(5px); /* Safari 6.0 - 9.0
+    filter: blur(5px);*/
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -19,6 +53,7 @@ body{
 }
 
 h1{
+    padding-top: 40px;
     color: rgb(254,206,120);
     font-family:"Times New Roman", Times, serif;
     font-size: 80px;
@@ -43,14 +78,7 @@ h1{
     color:white;
     text-align: center;
     font-family:"Times New Roman", Times, serif;
-    font-size: 26px;
-}
-
-.centerImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    font-size: 20px;
 }
 
 h2{
