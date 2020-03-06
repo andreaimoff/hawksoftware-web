@@ -1,9 +1,11 @@
 .menu {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+    align-content: left;
+    box-shadow: 10px 10px 3px black;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 .menu a {
@@ -22,7 +24,7 @@
 
 .menu img{
     max-height: 50px;
-    align-self:auto;
+    max-width: auto;
 }
 
 body{
