@@ -97,7 +97,7 @@ select option{
 .birthdate select.day {
     width: 55px;
 }
-.birthdate select.mounth {
+.birthdate select.month {
     width: calc(100% - 94px);
 }
 .birthdate select.year {
