@@ -1,11 +1,12 @@
 .menu {
     align-content: left;
-    box-shadow: 10px 10px 3px black;
+    box-shadow: 2px 2px 3px black;
     overflow: hidden;
     background-color: #333;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    padding: 0;
 }
 
 .menu a {
@@ -18,34 +19,59 @@
 }
 
 .menu a:hover {
-  background: #dddddd;
-  color: black;
+    background: #dddddd;
+    color: black;
 }
 
-.menu img{
-    max-height: 50px;
+.menu a.active {
+    background-color: rgb(254,206,120);
+    color: white;
+}
+
+.menu-right {
+    float: right;
+    padding-left: 5px;
+    padding-right: 40px;
+}
+
+.menu a img{
+    max-height: 40px;
     max-width: auto;
+    padding: 0px;
 }
 
 body{
     background-color: rgb(39,39,39);
+    padding: 0 0 0 0;
+}
+
+div{
+    padding: 0px 0px 0px 0px;
 }
 
 .titleImg{
     margin-top: 40px;
-    background-image: url(https://cdn.pixabay.com/photo/2020/01/07/13/36/sea-4747601_960_720.jpg);
-    max-width: 100%;
+    background-image: url('/img/office.jpg');
+    max-width: auto;
     max-height: auto;
     background-repeat: no-repeat;
+    padding: 0px 0px 0px 0px;
+}
+
+.titleImg h2{
+    color:white;
+    text-align: center;
+    font-size: 40px;
 }
 
 .alliesImg{
     max-height: auto;
     min-height: 300px;
-    background-image: url(https://cdn.pixabay.com/photo/2020/01/07/13/36/sea-4747601_960_720.jpg);
+    background-image: url('/img/conference.jpg');
     /*-webkit-filter: blur(5px); /* Safari 6.0 - 9.0
     filter: blur(5px);*/
     background-repeat: no-repeat;
+    padding: 0px 0px 0px 0px;
 }
 
 .container {
@@ -60,6 +86,7 @@ h1{
     font-family:"Times New Roman", Times, serif;
     font-size: 80px;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .sectionTitle{
@@ -67,6 +94,7 @@ h1{
     font-family:"Times New Roman", Times, serif;
     font-size: 56px;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .sectionSubtitle{
@@ -79,12 +107,24 @@ h1{
 .sectionDescription{
     color:white;
     text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
     font-family:"Times New Roman", Times, serif;
     font-size: 20px;
+    text-shadow: 2px 2px 4px #111111;
 }
 
 h2{
     color:white;
     text-align: center;
     font-size: 40px;
+}
+
+.imgLeft{
+    float:left;
+    max-width: auto;
+    max-height: 450px;
+    padding: 0px 70px 0px 0px;
+    
 }
