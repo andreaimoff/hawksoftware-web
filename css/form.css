@@ -1,0 +1,148 @@
+html, body {
+    min-height: 100%;
+    background-color: rgb(59,59,59);
+}
+body, div, form, input, select, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(254,206,120);
+}
+form{
+    background-color: rgb(38,38,38);
+}
+form h1 {
+    margin: 0;
+    font-weight: 400;
+}
+form h3 {
+    margin: 12px 0;
+    color: rgb(254,206,120);
+}
+form input{
+    background-color: white;
+    color: black;
+}
+select{
+    background-color: white;
+    color: #fff;
+}
+.main-block {
+    /*float: right;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding-top: 50px;
+}
+form {
+    float: right;
+    width: 100%;
+    padding: 20px;
+}
+fieldset {
+    border: none;
+    border-top: 1px solid rgb(234,186,100);;
+}
+.account-details, .personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.account-details >div, .personal-details >div >div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.account-details >div, .personal-details >div, input, label {
+    width: 100%;
+}
+form label {
+    padding: 0 5px;
+    text-align: right;
+    vertical-align: middle;
+}
+input {
+    padding: 5px;
+    vertical-align: middle;
+}
+.checkbox {
+    margin-bottom: 10px;
+}
+select, .children, .gender, .bdate-block {
+    width: calc(100% + 26px);
+    padding: 5px 0;
+}
+select {
+    background: white;
+    color: black;
+}
+select option{
+    background-color: white;
+    color:black;
+}
+.gender input {
+    width: auto;
+}
+.gender label {
+    padding: 0 5px 0 0;
+}
+.bdate-block {
+    display: flex;
+    justify-content: space-between;
+}
+/* Parámetros Campo Fecha de Nacimiento */
+.birthdate select.day {
+    width: 55px;
+}
+.birthdate select.mounth {
+    width: calc(100% - 94px);
+}
+.birthdate select.year {
+    width: calc(100% - 55px);
+}
+
+/* Parámetros Checks Política y Correo */
+.checkbox input, .children input {
+    width: auto;
+    margin: -2px 10px 0 0;
+}
+.checkbox a {
+    color: skyblue;
+}
+.checkbox a:hover {
+    color: deepskyblue;
+}
+
+/* Parámetros Botón de Registro */
+form button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px; 
+    border: none;
+    background: rgb(234,186,100);
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+button:hover {
+    background: rgb(254,206,120);
+}
+/* Parámetros Espaciado de Formulario */
+@media (min-width: 568px) {
+    .account-details >div, .personal-details >div {
+        width: 50%;
+    }
+    label {
+        width: 40%;
+    }
+    input {
+        width: 60%;
+    }
+    select, .children, .gender, .bdate-block {
+        width: calc(60% + 16px);
+    }
+}
